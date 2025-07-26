@@ -1,0 +1,61 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pyd
+*.pyo
+
+# ========================
+# Virtual/Conda Environments
+# ========================
+.venv/
+venv/
+env/
+ENV/
+chainlitDemo/
+*.conda
+*.lock
+*.env
+
+# ========================
+# Chainlit
+# ========================
+chainlit.db
+chainlit.log
+chainlit_data/
+.cache/
+logs/
+.history/
+uploads/
+.sessions/
+
+# Optional: ignore Chainlit config if it's environment-specific
+# .chainlit/config.toml
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+
+# ========================
+# OS & Editor Junk
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ========================
+# Node (if using JS frontends or extensions)
+# ========================
+node_modules/
+dist/
+build/
